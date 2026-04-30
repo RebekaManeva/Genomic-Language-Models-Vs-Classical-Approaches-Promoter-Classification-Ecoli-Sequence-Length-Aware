@@ -1,0 +1,32 @@
+{
+  "model_name": "LongSafari/hyenadna-tiny-16k-seqlen-d128-hf",
+  "tokenizer_name": "LongSafari/hyenadna-tiny-16k-seqlen-d128-hf",
+  "train_size": 2970,
+  "val_size": 637,
+  "test_size": 637,
+  "max_length": 512,
+  "val_metrics": {
+    "eval_loss": 0.7980645895004272,
+    "eval_accuracy": 0.7849293563579278,
+    "eval_precision": 0.7879746835443038,
+    "eval_recall": 0.780564263322884,
+    "eval_f1": 0.784251968503937,
+    "eval_roc_auc": 0.8676485085073244,
+    "eval_runtime": 0.3774,
+    "eval_samples_per_second": 1687.788,
+    "eval_steps_per_second": 211.967,
+    "epoch": 30.0
+  },
+  "test_metrics": {
+    "test_loss": 0.931813657283783,
+    "test_accuracy": 0.7660910518053375,
+    "test_precision": 0.7616099071207431,
+    "test_recall": 0.7735849056603774,
+    "test_f1": 0.7675507020280812,
+    "test_roc_auc": 0.8312730427239211,
+    "test_runtime": 0.3848,
+    "test_samples_per_second": 1655.204,
+    "test_steps_per_second": 207.875,
+    "epoch": 30.0
+  }
+}

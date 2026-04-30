@@ -1,0 +1,32 @@
+{
+  "model_name": "InstaDeepAI/nucleotide-transformer-v2-100m-multi-species",
+  "tokenizer_name": "InstaDeepAI/nucleotide-transformer-v2-100m-multi-species",
+  "train_size": 2970,
+  "val_size": 637,
+  "test_size": 637,
+  "max_length": 512,
+  "val_metrics": {
+    "eval_loss": 3.728870153427124,
+    "eval_accuracy": 0.5886970172684458,
+    "eval_precision": 0.6036363636363636,
+    "eval_recall": 0.5203761755485894,
+    "eval_f1": 0.5589225589225589,
+    "eval_roc_auc": 0.6161402574870369,
+    "eval_runtime": 2.011,
+    "eval_samples_per_second": 316.765,
+    "eval_steps_per_second": 39.782,
+    "epoch": 30.0
+  },
+  "test_metrics": {
+    "test_loss": 4.137286186218262,
+    "test_accuracy": 0.5463108320251178,
+    "test_precision": 0.5454545454545454,
+    "test_recall": 0.5471698113207547,
+    "test_f1": 0.5463108320251178,
+    "test_roc_auc": 0.5697590741507462,
+    "test_runtime": 2.005,
+    "test_samples_per_second": 317.698,
+    "test_steps_per_second": 39.899,
+    "epoch": 30.0
+  }
+}
